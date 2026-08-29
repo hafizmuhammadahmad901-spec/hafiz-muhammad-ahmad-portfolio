@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hafiz Muhammad Ahmad — Computer Science Student</title>
+<meta name="description" content="Portfolio of Hafiz Muhammad Ahmad, Computer Science student at UET Lahore, building backend APIs and exploring AI/ML.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Noise/grid backdrop -->
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">HMA<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#education">education</a>
+      <a href="#achievements">achievements</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">
+        <svg id="iconSun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+        <svg id="iconMoon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">// computer science · uet lahore</p>
+        <h1 class="hero-title">Hafiz Muhammad<br>Ahmad</h1>
+        <p class="hero-role">AI/ML Enthusiast <span class="sep">|</span> Computer Science Student</p>
+        <p class="hero-desc">Building backend systems and exploring machine learning — one API, one project, one commit at a time.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/resume/Hafiz_Muhammad_Ahmad_Resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/hafizmuhammadahmad901-spec" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.26 5.69.42.36.78 1.07.78 2.17 0 1.57-.02 2.83-.02 3.22 0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"></path></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/hafiz-muhammad-ahmad-a713673b7/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z"></path></svg>
+          </a>
+          <a href="mailto:hafizmuhammadahmad901@gmail.com" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"></path><path d="M22 6l-10 7L2 6"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="terminal" role="img" aria-label="Terminal window showing a whoami command">
+          <div class="terminal-bar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">hafiz@uet-lahore: ~</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="out">hafiz_muhammad_ahmad</p>
+            <p><span class="prompt">$</span> cat role.txt</p>
+            <p class="out">AI/ML Enthusiast | CS Student @ UET Lahore</p>
+            <p><span class="prompt">$</span> ls projects/</p>
+            <p class="out">visibility-report-api/  bus-ticket-management-system/</p>
+            <p><span class="prompt">$</span> status --current</p>
+            <p class="out accent">seeking internships &amp; real-world projects<span class="cursor">▌</span></p>
+          </div>
+        </div>
+        <div class="profile-frame">
+          <img src="assets/images/profile.png" alt="Photo of Hafiz Muhammad Ahmad">
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-label">// about</p>
+      <div class="about-grid">
+        <p class="about-text reveal">
+          Hi, I'm Hafiz Muhammad Ahmad, a Computer Science student at UET Lahore (2026–2030) and an AI/ML enthusiast
+          passionate about building intelligent and practical solutions. I work primarily with Python and continuously
+          explore machine learning, data-driven technologies, and software development. I'm currently looking for
+          opportunities to learn, contribute, and grow through internships and real-world projects.
+        </p>
+        <div class="about-facts reveal">
+          <div class="fact">
+            <span class="fact-label">Based in</span>
+            <span class="fact-value">Lahore, Pakistan</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Studying</span>
+            <span class="fact-value">BS Computer Science, UET Lahore</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Currently</span>
+            <span class="fact-value">2nd Semester · Fall 2026</span>
+          </div>
+          <div class="fact">
+            <span class="fact-label">Looking for</span>
+            <span class="fact-value">Internships &amp; real-world projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section alt">
+    <div class="section-inner">
+      <p class="section-label">// skills</p>
+      <h2 class="section-title reveal">What I work with</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Programming Languages</h3>
+          <div class="pills">
+            <span class="pill">Python</span>
+            <span class="pill">C++</span>
+            <span class="pill">C#</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Web Development</h3>
+          <div class="pills">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Backend &amp; Frameworks</h3>
+          <div class="pills">
+            <span class="pill">FastAPI</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Databases</h3>
+          <div class="pills">
+            <span class="pill">SQL</span>
+            <span class="pill">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Data Science / AI / ML</h3>
+          <div class="pills">
+            <span class="pill">Pandas</span>
+            <span class="pill">AI/ML Fundamentals</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Tools</h3>
+          <div class="pills">
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <p class="section-label">// projects</p>
+      <h2 class="section-title reveal">Things I've built</h2>
+
+      <!-- Featured Project -->
+      <article class="project-card featured reveal">
+        <div class="project-tag">Featured</div>
+        <div class="project-grid">
+          <div class="project-main">
+            <h3>Visibility Report API</h3>
+            <p class="project-desc">
+              A backend REST API that analyzes a local business's online visibility using signals like operating hours,
+              category, description, contact availability, rating, reviews, photos, and competitor rating. It generates
+              a structured report with a rule-based visibility score, an overall evaluation, identified gaps, actionable
+              recommendations, and an estimated potential visibility loss — inspired by a real small-business context.
+            </p>
+            <ul class="project-features">
+              <li>Generates a full visibility report per business</li>
+              <li>Rule-based scoring engine</li>
+              <li>Persists reports to a database (SQLAlchemy + SQLite)</li>
+              <li>Retrieve a report by ID, or list all past reports</li>
+              <li>Input validation with clear error handling</li>
+              <li>Interactive Swagger / OpenAPI documentation</li>
+              <li>Automated test suite with pytest</li>
+            </ul>
+            <div class="project-stack">
+              <span class="pill sm">Python</span>
+              <span class="pill sm">FastAPI</span>
+              <span class="pill sm">SQLAlchemy</span>
+              <span class="pill sm">SQLite</span>
+              <span class="pill sm">Pytest</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/hafizmuhammadahmad901-spec/programming-fundamentals-work" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Secondary Project -->
+      <article class="project-card reveal">
+        <div class="project-grid">
+          <div class="project-main">
+            <h3>Bus Ticket Management System</h3>
+            <p class="project-desc">
+              A console-based bus ticketing system in C++ with three distinct roles — Admin, Manager, and Passenger —
+              each with its own login and menu. Models real-world operations like fleet management, seat booking,
+              fare handling, and passenger accounts entirely through core C++ logic.
+            </p>
+            <ul class="project-features">
+              <li>Admin: add/update/delete buses, set fares, view revenue reports, reset accounts</li>
+              <li>Manager: view fleet status, search buses, view booking summaries</li>
+              <li>Passenger: signup/login with validation, book &amp; cancel seats, view profile</li>
+              <li>Filter buses by type, track seat availability in real time</li>
+              <li>Styled terminal UI with colored headers and loading animations</li>
+            </ul>
+            <div class="project-stack">
+              <span class="pill sm">C++</span>
+              <span class="pill sm">Console I/O</span>
+              <span class="pill sm">Array-based Data Modeling</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/hafizmuhammadahmad901-spec/programming-fundamentals-work" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section alt">
+    <div class="section-inner">
+      <p class="section-label">// education</p>
+      <h2 class="section-title reveal">Education</h2>
+
+      <div class="edu-card reveal">
+        <div class="edu-head">
+          <div>
+            <h3>BS Computer Science</h3>
+            <p class="edu-sub">University of Engineering &amp; Technology (UET), Lahore</p>
+          </div>
+          <span class="edu-period">2026 — 2030</span>
+        </div>
+        <p class="edu-status">Currently in 2nd Semester (Fall 2026)</p>
+        <div class="edu-detail">
+          <span class="edu-detail-label">Relevant coursework</span>
+          <div class="pills">
+            <span class="pill sm">Programming Fundamentals</span>
+            <span class="pill sm">Object-Oriented Programming (C#)</span>
+            <span class="pill sm">Database Management Systems</span>
+          </div>
+        </div>
+        <div class="edu-detail">
+          <span class="edu-detail-label">Academic achievement</span>
+          <p>Achieved an A+ in Information &amp; Communication Technology (ICT)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section">
+    <div class="section-inner">
+      <p class="section-label">// achievements</p>
+      <h2 class="section-title reveal">Beyond the classroom</h2>
+
+      <div class="achieve-grid">
+        <div class="achieve-card reveal">
+          <h3>Class Representative</h3>
+          <p>Represented and coordinated for classmates as the elected Class Representative.</p>
+        </div>
+        <div class="achieve-card reveal">
+          <h3>Tehsil-Level Debater</h3>
+          <p>Competed as a debater at the tehsil level, sharpening communication and critical-thinking skills.</p>
+        </div>
+        <div class="achieve-card reveal">
+          <h3>A+ in ICT</h3>
+          <p>Achieved an A+ grade in Information &amp; Communication Technology coursework.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section alt">
+    <div class="section-inner">
+      <p class="section-label">// contact</p>
+      <h2 class="section-title reveal">Let's build something</h2>
+      <p class="contact-intro reveal">
+        Open to internships, collaborations, and interesting problems. The quickest way to reach me is email.
+      </p>
+
+      <div class="contact-grid">
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-row">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required placeholder="What's on your mind?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-hint">Opens your email client — nothing is sent from this page.</p>
+        </form>
+
+        <div class="contact-side reveal">
+          <a class="contact-link" href="mailto:hafizmuhammadahmad901@gmail.com">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">hafizmuhammadahmad901@gmail.com</span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/hafiz-muhammad-ahmad-a713673b7/" target="_blank" rel="noopener">
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">/in/hafiz-muhammad-ahmad</span>
+          </a>
+          <a class="contact-link" href="https://github.com/hafizmuhammadahmad901-spec" target="_blank" rel="noopener">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">@hafizmuhammadahmad901-spec</span>
+          </a>
+
+          <div class="github-stats">
+            <img src="https://github-readme-stats.vercel.app/api?username=hafizmuhammadahmad901-spec&show_icons=true&theme=transparent&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=8A93A6" alt="GitHub stats for hafizmuhammadahmad901-spec" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p>&copy; 2026 Hafiz Muhammad Ahmad. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#top" class="footer-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
